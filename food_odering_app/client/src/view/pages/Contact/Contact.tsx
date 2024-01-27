@@ -1,9 +1,11 @@
 import React, {Component, useState} from 'react';
 import { ChevronDownIcon } from '@heroicons/react/20/solid'
-import { Switch } from '@headlessui/react'
-function classNames(...classes) {
-    return classes.filter(Boolean).join(' ')
+import Switch from 'react-switch';
+
+function classNames(...classes: string[]): string {  // Add type annotation
+    return classes.filter(Boolean).join(' ');
 }
+
 export class Contact extends Component {
     render() {
         const [agreed, setAgreed] = useState(false)
