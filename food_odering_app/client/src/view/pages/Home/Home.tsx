@@ -8,7 +8,7 @@ export function Home(props: Props) {
     return (
         <section>
             <div>
-                <img className={'w-[35vw] mt-12 absolute right-24 max-[856px]:block max-[856px]:mt-80'} src="./../../src/assets/home/home-image.png" alt="rice"/>
+                <img className={'w-[35vw] mt-12 absolute right-24 max-[856px]:block max-[856px]:mt-80'} src="../../../images/foodHomePage.jpeg" alt="rice"/>
                 {/*<img className={'w-[13vw] mt-[25vw] absolute right-[33vw]'} src="./../../src/assets/home/chips.png" alt="rice"/>*/}
                 {/*<img className={'w-[15vw] mt-[12vw] absolute right-[36vw]'} src="./../../src/assets/home/salad.png" alt="rice"/>*/}
                 {/*<img className={'w-[10vw] mt-[1.8vw] absolute right-[34vw]'} src="./../../src/assets/home/bun.png" alt="rice"/>*/}
