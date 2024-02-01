@@ -7,10 +7,11 @@ import {MainContent} from "./view/common/MainContent/MainContent";
 
 
 function App() {
+    const apikey = 'AhTs1NKD6MM19FxIHxv3kseOeji1BrzSQfcutMcPm1xxa5delVftdkNjkOQRkZ0O';
   return (
       <BrowserRouter>
           <Routes>
-              <Route path="/*" Component={MainContent} ></Route>
+              <Route path={'/*'} element={<Home apikey={apikey}/>}/>
           </Routes>
       </BrowserRouter>
   );

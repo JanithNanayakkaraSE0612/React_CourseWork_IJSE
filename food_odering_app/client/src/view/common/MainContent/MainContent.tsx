@@ -9,7 +9,7 @@ export class MainContent extends Component {
         return (
             <div className="mx-auto">
                 <Routes>
-                    <Route path="/" Component={Home}></Route>
+                    {/*<Route path="/" Component={Home}></Route>*/}
                     <Route path="/about" Component={About}></Route>
                     <Route path="/contact" Component={Contact}></Route>
                 </Routes>
