@@ -13,6 +13,7 @@ const Header = () => {
                 </Typography>
                 <Tabs textColor='inherit' indicatorColor='secondary' value={value} onChange={(e,val)=>setValue(val)}>
                     <Tab label='Add Product' />
+                    <Tab label='Books' />
                     <Tab label='About Us' />
                 </Tabs>
             </Toolbar>
