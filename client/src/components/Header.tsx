@@ -1,5 +1,4 @@
-import { AppBar,Toolbar, Typography } from '@mui/material'
-import { Tab, Tabs } from '@material-ui/core';
+import { AppBar,Tab,Tabs,Toolbar, Typography } from '@mui/material'
 import React, { useState } from 'react'
 import LibraryBooksIcon from '@mui/icons-material/LibraryBooks';
 import { NavLink } from 'react-router-dom';
