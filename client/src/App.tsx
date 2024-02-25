@@ -4,7 +4,9 @@ import Header from './components/Header';
 import { Route, Routes } from 'react-router-dom';
 import Home from './components/Home';
 import AddBook from './components/AddBook';
-}
+import Books from './components/book/Books';
+import About from './components/About';
+
 
 function App() {
   return (
@@ -14,9 +16,10 @@ function App() {
       </header>
       <main>
         <Routes>
-            <Route path='/' element={<Home/>} exact/>
+            <Route  path='/' element={<Home/>}exact/>
             <Route path='/add' element={<AddBook/>} exact/>
-            <Route path='/books' element={<}
+            <Route path='/books' element={<Books/>} exact/>
+            <Route path='/about' element={<About/>} exact/>
         </Routes>
       </main>
     </React.Fragment>
