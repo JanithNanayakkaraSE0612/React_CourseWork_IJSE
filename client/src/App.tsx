@@ -1,11 +1,21 @@
+import React from 'react';
 import './App.css';
 import Header from './components/Header';
+import { Route, Routes } from 'react-router-dom';import { Home } from '@mui/icons-material';
+}
 
 function App() {
   return (
-    <div className="App">
-      <Header/>
-    </div>
+    <React.Fragment>
+      <header>
+          <Header/>
+      </header>
+      <main>
+        <Routes>
+            <Route path='/' element={<Home/>}/>
+        </Routes>
+      </main>
+    </React.Fragment>
   );
 }
 
