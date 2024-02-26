@@ -7,12 +7,14 @@ const app = express();
 app.use(express.json());
 app.use(cors());
 app.use("/books",router);
+let port = 5000
 
 mongoose.connect(
     "mongodb+srv://School:JanithNanayakkara@cluster0.7ay2le9.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 )
 .then(()=>console.log("Connected to Database"))
 .then(()=>{
-    app.listen(5000);
+    app.listen(port);
+    console.log(`Port iss Running : ${port}`);
 })
 .catch((err)=> console.log(err));
