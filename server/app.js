@@ -15,6 +15,6 @@ mongoose.connect(
 .then(()=>console.log("Connected to Database"))
 .then(()=>{
     app.listen(port);
-    console.log(`Port iss Running : ${port}`);
+    console.log(`Port is Running : ${port}`);
 })
 .catch((err)=> console.log(err));

@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
-const URL = "http://localhost:3000/books"
 import axios from 'axios'
+const URL = "http://localhost:3000/books"
 
 const fetchHandler = async()=>{
     return await axios.get(URL).then((res)=>res.data)

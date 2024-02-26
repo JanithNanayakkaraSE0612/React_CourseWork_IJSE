@@ -16,10 +16,10 @@ function App() {
       </header>
       <main>
         <Routes>
-            <Route  path='/' element={<Home/>}exact/>
-            <Route path='/add' element={<AddBook/>} exact/>
-            <Route path='/books' element={<Books/>} exact/>
-            <Route path='/about' element={<About/>} exact/>
+            <Route  path='/' element={<Home/>}/>
+            <Route path='/add' element={<AddBook/>}/>
+            <Route path='/books' element={<Books/>}/>
+            <Route path='/about' element={<About/>}/>
         </Routes>
       </main>
     </React.Fragment>
