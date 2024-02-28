@@ -9,11 +9,11 @@ app.use(cors());
 app.use("/books",router);
 let port = 5000
 
-//mongoose
+
 mongoose.connect(
     "mongodb+srv://School:JanithNanayakkara@cluster0.7ay2le9.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 )
-// metohd
+
 .then(()=>console.log("Connected to Database"))
 .then(()=>{
     app.listen(port);
